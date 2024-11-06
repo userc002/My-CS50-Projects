@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>CS50 Problem Set 8</title>
+    </head>
+    <body>
+        <div class="header">
+            <ul id="menu">
+                <li><a class="pag" href="#">Home</a></li>
+                <li><a class="pag" href="original.html">Original</a></li>
+                <li><a class="pag" href="definitive.html">Definitive</a></li>
+                <li><a class="pag" href="about.html">About</a></li>
+              </ul>
+            <h1>
+                <img src="/images/logo.png" alt="Logo" width="100" height="100" style="vertical-align: left">
+                Grand Theft Auto San Andreas</h1>
+
+        </div>
+        <section>
+            <h2>What is it?</h2>
+
+        <p>
+
+            Grand Theft Auto: San Andreas (also referred to as GTA San Andreas, GTA SA or simply San Andreas) is a Rockstar North-developed video game released on 26th October 2004 by Rockstar Games, and is the seventh title in the Grand Theft Auto series and the third game in the 3D Universe of the series. It is the sequel to Grand Theft Auto: Vice City and the prequel to Grand Theft Auto: Liberty City Stories and Grand Theft Auto III. It was released on the same date as Grand Theft Auto Advance. GTA San Andreas is set in the fictional state of San Andreas.
+            <div id="image">
+                <img src="/images/cover.png" alt="Boxart" width="350" height="500">
+            </div>
+        </p>
+        </section>
+
+        <section>
+            <h2>More about the world.</h2>
+            <p>
+                By far the largest and most complex playing field of any 3D Universe game, San Andreas consists of three fully-realized cities: Los Santos, San Fierro and Las Venturas, and includes vast expanses of countryside, forests, a desert, and even a mountain and many hills. The game is centered around the return of Carl Johnson (also known as CJ) to his gang (the Grove Street Families), and their subsequent return to power.
+            </p>
+            <div id="image">
+            <img src="/images/map.jpg" alt="Map" width="300" height="300">
+            </div>
+        </section>
+
+        <section>
+            <h2>Gameplay.</h2>
+            <p>
+                Grand Theft Auto: San Andreas is similarly structured to the previous two games in the series. The core gameplay consists of elements of third-person shooter and a driving game, affording the player a large, open environment in which to move around. On foot, the player's character is capable of walking, running, swimming (the first Grand Theft Auto game in which diving and swimming without drowning is possible), limited climbing, and jumping, as well as using weapons and various forms of hand to hand combat. Players can operate a variety of vehicles, including automobiles, boats, airplanes, helicopters, trains, tanks, motorcycles, and bicycles. Players may also import vehicles rather than steal them.
+           </p>
+           <div id="image">
+            <img src="/images/gameplay.jfif" alt="Gameplay" width="500" height="300">
+            </div>
+           <p>
+            Carl Johnson is Grand Theft Auto's most customizable protagonist due to the possibility in-game to change his clothes, tattoos, hairstyle, and even his body mass in which he can be fat, skinny, or muscular. Later 3D-era games eliminated many of the customization, swimming, and climbing abilities enjoyed by CJ. The ability to change body mass (due to eating and exercise - or lack thereof - which requires ongoing maintenance until a certain collectables challenge is completed) is as of 2017 unique to San Andreas as it has not been attempted again with any further 3D or HD-universe games.
+           </p>
+           <div id="image">
+            <img src="/images/cc.jfif" alt="Wardrobe" width="500" height="300">
+            </div>
+        </section>
+
+        <section>
+            <h2>More About the developer</h2>
+            <p>
+                Rockstar North Limited (formerly DMA Design Limited) is a developer of computer and video games located in Edinburgh, Scotland. The president of the company was Leslie Benzies. The company is a part of Rockstar Games which is owned by Take Two Interactive. It is the primary developer of the Grand Theft Auto series, including Grand Theft Auto: Vice City, Grand Theft Auto: San Andreas, Grand Theft Auto V, and Grand Theft Auto Online, which are some of the best-selling games of all time; in its earlier guise as DMA, it was responsible for originating the monumentally successful Lemmings franchise. More recently, it is the developer of Grand Theft Auto V and Grand Theft Auto Online. Rockstar North is Rockstar Games' most experienced production company, with a total of 33 games produced under the DMA Design or Rockstar North banner.
+            </p>
+            <p>
+                <img src="/images/rn.png" alt="RNLogo" width="100" height="100" style="padding: 1.5%;">
+                Visit <a href="https://gta.fandom.com/wiki/Rockstar_North" target="_blank">Rockstar North Wiki</a> to find out more about Rockstar North.
+            </p>
+        </section>
+
+        <section>
+            <h2>Want to know more?</h2>
+            <p>
+                Check the <a href="https://gta.fandom.com/wiki/Grand_Theft_Auto:_San_Andreas" target="_blank">Grand Theft Auto Wiki</a>, it is a fan made wiki which has everything you want to know about GTA San Andreas.
+            </p>
+        </section>
+    </body>
+    <div id="footer">
+    <footer>Problem Set 8 Homepage by Shadab
+
+    </footer>
+</div>
+
+        <button onclick="topFunction()" id="Btn" title="Go to top">Top</button>
+        <script>
+
+            let mybutton = document.getElementById("Btn");
+
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+
+
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+</html>

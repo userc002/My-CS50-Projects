@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>CS50 Problem Set 8</title>
+    </head>
+    <body>
+        <div class="header">
+            <ul id="menu">
+                <li><a class="pag" href="#">Home</a></li>
+                <li><a class="pag" href="about.html">About</a></li>
+                <li><a class="pag" href="definitive.html">Definitive</a></li>
+                <li><a class="pag" href="index.html">Index</a></li>
+              </ul>
+            <h1>Original Release</h1>
+        </div>
+
+        <section>
+            <h2>
+                Development
+            </h2>
+            <p>
+                Grand Theft Auto: San Andreas was developed by Rockstar North. It had a development budget of $10 million.
+            </p>
+            <p>
+                According to Rockstar North technical director Obbe Vermeij, for GTA San Andreas, a completely new level of detail system was implemented whereby a number of models (buildings) can share a single low-detail (LOD) model. This way, the low-detail models could be loaded as the player moves around the map as opposed to in one go as the player moves between islands, like in GTA Vice City.[1] The PC version has a further clip distance so that more of the map is always visible, and the map has a lot of the detail that had to be removed from the PlayStation 2 version to get it to fit into the smaller memory footprint. The clip distances for cars and pedestrians are increased, as well. "We have to draw these things further out because the PC will run at a higher resolution. In total, this means that the PC is pushing around a lot more than the PS2."
+            </p>
+        </section>
+        <section>
+            <h2>Reception</h2>
+            <p>
+                Prior to its release for the PlayStation 2, Grand Theft Auto: San Andreas was one of the most highly anticipated video games of 2004, along with Halo 2, Doom 3 and Half Life 2. San Andreas met most of these expectations, as it was critically acclaimed and commercially successful, and praised as one of the PlayStation 2's best games.
+            </p>
+            <p>
+                Metacritic awarded the game with 95/100, making it the fifth highest rated PlayStation 2 game of all time.
+            </p>
+            <p>
+                IGN rated the game a 9.9/10 (the highest score it has ever awarded to a PlayStation 2 game), calling it "the defining piece of software" for the PlayStation 2.
+            </p>
+            <p>
+                GameSpot rated the game 9.6/10, giving it an Editor's Choice award. Jeff Gerstmann of GameSpot said "San Andreas definitely lives up to the Grand Theft Auto name. In fact, it's arguably the best game in the series."
+            </p>
+        </section>
+        <section>
+            <h2>Sales</h2>
+            <p>
+                In 2011, Kotaku reported that, according to Rockstar Games, Grand Theft Auto: San Andreas had sold 27.5 million copies worldwide, making it the second best selling Grand Theft Auto game in the series.
+            </p>
+        </section>
+        </body>
+        <div id="footer">
+            <footer>Problem Set 8 Homepage by Shadab
+
+            </footer>
+        </div>
+
+                <button onclick="topFunction()" id="Btn" title="Go to top">Top</button>
+                <script>
+
+                    let mybutton = document.getElementById("Btn");
+
+
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                      } else {
+                        mybutton.style.display = "none";
+                      }
+                    }
+
+
+                    function topFunction() {
+                      document.body.scrollTop = 0;
+                      document.documentElement.scrollTop = 0;
+                    }
+                    </script>
+        </html>

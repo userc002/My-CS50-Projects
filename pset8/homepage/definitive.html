@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>CS50 Problem Set 8</title>
+    </head>
+    <body>
+        <div class="header">
+            <ul id="menu">
+                <li><a class="pag" href="#">Home</a></li>
+                <li><a class="pag" href="about.html">About</a></li>
+                <li><a class="pag" href="original.html">Original</a></li>
+                <li><a class="pag" href="index.html">Index</a></li>
+              </ul>
+            <h1><img src="/images/delogo.png" alt="Logo" width="100" height="100" style="vertical-align: left">
+                Definitive Edition</h1>
+        </div>
+        <section>
+            <h2>What is it?</h2>
+            <p>
+                The Definitive Edition was announced by Rockstar on October 8th, 2021, as part of the Grand Theft Auto: The Trilogy - The Definitive Edition pack. The edition was released on November 11, 2021 for PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One, Nintendo Switch and PC.
+            </p>
+            <div id="image">
+            <img src="/images/debox.jfif" alt="DEBoxart" width="350" height="500">
+        </div>
+            <p>
+                The edition features across-the-board upgrades including graphical improvements and modern gameplay enhancements, while still maintaining the classic look and feel of its original version.
+            </p>
+        </section>
+        <section>
+            <h2>Enhancements and Changes</h2>
+            <p>New GTA V-inspired modern controls and gameplay features.
+                <ul>
+                    <li>Updated Mini-Maps with enhanced navigation allowing players to set waypoints to destinations.</li>
+                    <li>Updated Weapon and Radio Station selection wheels.</li>
+                    <li>The ability to immediately restart a failed mission.</li>
+                    <li>Plus new Rockstar Games Social Club Accomplishments for members.</li>
+                </ul>
+            </p>
+            <p>
+                Platform-Specific Features.
+                <ul>
+                    <li>4K-resolution support with 60 FPS performance for PlayStation 5 and Xbox Series X systems.</li>
+                    <li>NVIDIA DLSS support for PC.</li>
+                    <li>Touch screen camera zooming, pans and menu selections as well as Gyro aiming for Nintendo Switch.</li>
+                </ul>
+            </p>
+            <div id="image">
+                <img src="/images/degp.jfif" alt="DEGameplay" width="500" height="300">
+                </div>
+        </section>
+        <section>
+            <h2>Development</h2>
+            <p>
+                In August 2021, a report published by Kotaku detailed that Rockstar Games was developing a remastered trilogy of Grand Theft Auto titles: Grand Theft Auto III, Vice City, and San Andreas, originally developed by Rockstar North. According to the report, its development was led by Rockstar Dundee and uses the Unreal Engine. In September, the Game Rating and Administration Committee in South Korea gave the trilogy a game rating. Media speculation about the game continued in early October after an update to the Rockstar Games Launcher included related data to the game in addition to logos, art, and game achievements.
+            </p>
+            <p>
+                Several days later, on October 8, 2021, Rockstar officially announced the remastered trilogy on its website and social media pages.
+            </p>
+            <p>
+                Existing versions of the three games were removed from digital retailers on October 11, 2021. Audiences and journalists criticized the move, citing concerns with video game preservation, a lack of choice between versions, and the potential removal of music due to expired licenses, which had occurred with previous re-releases.
+            </p>
+        </section>
+        </body>
+        <div id="footer">
+            <footer>Problem Set 8 Homepage by Shadab
+
+            </footer>
+        </div>
+
+                <button onclick="topFunction()" id="Btn" title="Go to top">Top</button>
+                <script>
+
+                    let mybutton = document.getElementById("Btn");
+
+
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                      } else {
+                        mybutton.style.display = "none";
+                      }
+                    }
+
+
+                    function topFunction() {
+                      document.body.scrollTop = 0;
+                      document.documentElement.scrollTop = 0;
+                    }
+                    </script>
+        </html>
