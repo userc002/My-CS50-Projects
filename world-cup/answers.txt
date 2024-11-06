@@ -1,0 +1,15 @@
+Times:
+
+10 simulations: 0m0.022s
+100 simulations: 0m0.024s
+1000 simulations: 0m0.028s
+10000 simulations: 0m0.088s
+100000 simulations: 0m0.758s
+1000000 simulations: 0m7.373s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: france falling out of the top three
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: 1000 i believe after this point the result in the top three teams get consistent

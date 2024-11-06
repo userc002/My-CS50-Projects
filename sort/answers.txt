@@ -1,0 +1,38 @@
+sort1 uses: bubble sort
+0.074s
+0.381s
+9.721s
+0.067s
+0.275s
+7.132s
+0.057s
+0.100s
+2.927s
+
+How do you know?: slowest of the bunch but gives similar times as selection sort for resorting sorted list
+
+sort2 uses: merged sort
+0.029s
+0.055s
+3.876s
+0.022s
+0.078s
+2.894s
+0.022s
+0.067s
+2.654s
+
+How do you know?: smallest time taken to sort ie fastest
+
+sort3 uses: selection sort
+0.045s
+0.173s
+6.558s
+0.070s
+0.178s
+6.184s
+0.046s
+0.149s
+4.562s
+
+How do you know?: second fastest sort
